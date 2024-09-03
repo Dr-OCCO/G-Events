@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Admin Dashboard</h1>
+        </nav>
+    </header>
+    
+    <section class="admin-dashboard">
+        <h2>Manage Events</h2>
+        <form>
+            <label for="event-title">Event Title</label>
+            <input type="text" id="event-title" name="event-title" required>
+            <label for="event-date">Event Date</label>
+            <input type="date" id="event-date" name="event-date" required>
+            <label for="event-time">Event Time</label>
+            <input type="time" id="event-time" name="event-time" required>
+            <label for="event-description">Event Description</label>
+            <textarea id="event-description" name="event-description" required></textarea>
+            <button type="submit" class="cta-button">Add Event</button>
+        </form>
+        <h3>Existing Events</h3>
+        <!-- List of existing events with options to edit or delete -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Local Events Planner. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
